@@ -8,3 +8,11 @@ include_directories(treaps)
 add_executable(Treap_DB
         treaps/treap.h
         main.cpp)
+
+add_executable(Treap_verify
+        treaps/treap.h
+        treap_test.cpp)
+
+add_executable(Treap_benchmark
+        treaps/treap.h
+        treap_benchmark.cpp)

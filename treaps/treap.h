@@ -123,9 +123,12 @@ class Treap {
         }
     
     public:
+        Treap() = default;
+
         ~Treap() {
             destroy(root);
         }
+
         Treap(const Treap&) = delete;
         Treap& operator=(const Treap&) = delete;
 
